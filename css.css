@@ -1,0 +1,27 @@
+table, th, td {
+  border: 1px solid;} 
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th,td{
+    padding: 5px;
+  }
+  th{
+    background-color: #336699 ;
+  }
+  tr:nth-child(even){
+    background-color:#c6d9ec;
+  }
+  tr:hover{
+    background-color:#b3cce6;
+
+  }
+    h1{
+      text-align: center;
+      color:blue;
+    }
+    h1:hover{
+      color:coral;
+      cursor:pointer ;
+    }
